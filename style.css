@@ -1,11 +1,13 @@
 *{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    text-wrap: inherit;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 100vh;
 }
 .container{
