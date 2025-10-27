@@ -25,7 +25,7 @@ a{
     text-decoration: none;
     color: #000;
 }
-.btn{
+.btn button{
     height: 40px;
     width: 100px;
     font-weight: bold;
@@ -33,7 +33,7 @@ a{
     border: 3px solid;
     border-radius: 15px;
 }
-.btn:hover{
+.btn button:hover{
     background: #ffffff;
     transform: scale(1.05);
     transition: calc(1s);
@@ -41,7 +41,7 @@ a{
     text-shadow: 5px 2px 4px;
     box-shadow: 10px 10px 10px#000;
 }
-.btn::after{
+.btn button::after{
     content: "";
     z-index: -1;
     position: absolute;
